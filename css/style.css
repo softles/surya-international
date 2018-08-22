@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #colorlib-hotel,
 .colorlib-tour,
-.colorlib-wrap,
+
 
 #colorlib-intro,
 #colorlib-testimony,
@@ -403,6 +403,14 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: -140px;
   padding: 9em 0;
   clear: both; }
+  .colorlib-wrap{
+    width: 100%;
+  display: block;
+  float: left;
+  margin-top:auto;
+  padding: 9em 0;
+  clear: both;
+  }
 #colorlib-contact{
 
 width: 100%;
