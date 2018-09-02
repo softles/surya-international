@@ -135,17 +135,17 @@ h1, h2, h3, h4, h5, h6, figure {
         position: relative; }
         .colorlib-nav ul li.has-dropdown .dropdown {
           width: 140px;
-          -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 0px 14px 33px -9px rgb(49, 87, 221, );
+          -moz-box-shadow: 0px 14px 33px -9px rgb(49, 87, 211);
+          box-shadow: 0px 14px 33px -9px rgb(49, 87, 211);
           z-index: 1002;
           visibility: hidden;
           opacity: 0;
           position: absolute;
-          top: 40px;
+          top: 7px;
           left: 0;
           text-align: left;
-          background: #000;
+          background: rgb(49, 87, 211);
           padding: 20px;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
@@ -163,26 +163,26 @@ h1, h2, h3, h4, h5, h6, figure {
             width: 0;
             position: absolute;
             pointer-events: none;
-            border-bottom-color: #000;
+            border-bottom-color: rgb(49, 87, 211);
             border-width: 8px;
             margin-left: -8px; }
           .colorlib-nav ul li.has-dropdown .dropdown li {
             display: block;
-            margin-bottom: 7px; }
+            margin-bottom:auto; }
             .colorlib-nav ul li.has-dropdown .dropdown li:last-child {
               margin-bottom: 0; }
             .colorlib-nav ul li.has-dropdown .dropdown li a {
               padding: 2px 0;
               display: block;
               color: #999999;
-              line-height: 1.2;
+              
               text-transform: none;
               font-size: 13px;
               letter-spacing: 0; }
               .colorlib-nav ul li.has-dropdown .dropdown li a:hover {
                 color: #fff; }
         .colorlib-nav ul li.has-dropdown:hover a, .colorlib-nav ul li.has-dropdown:focus a {
-          color: #FFDD00; }
+          color: white; }
       .colorlib-nav ul li.btn-cta a {
         padding: 30px 0px !important;
         color: #fff; }
@@ -340,28 +340,28 @@ h1, h2, h3, h4, h5, h6, figure {
           margin: 0;
           padding: 0;
           color: white; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+        #colorlib-heroo .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 50px;
           font-size: 50px;
           line-height: 1.3;
           font-weight: 300; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+            #colorlib-heroo .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-heroo .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 16px;
           line-height: 1.5;
           margin-bottom: 10px;
           text-transform: uppercase;
           font-family: "Quicksand", Arial, sans-serif;
           letter-spacing: 3px; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
+          #colorlib-heroo .flexslider .slider-text > .slider-text-inner h2 a {
             color: #ffdd00;
             border-bottom: 1px solid rgba(255, 221, 0, 0.7); }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+        #colorlib-heroo .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+            #colorlib-heroo .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s
 .colorlib-lead {
@@ -410,6 +410,14 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   float: left;
   margin-top:auto;
+  padding: 9em 0;
+  clear: both;
+  }
+  .colorlib-wrapp{
+    width: 100%;
+  display: block;
+  float: left;
+  margin-top:-117px;
   padding: 9em 0;
   clear: both;
   }
@@ -1088,7 +1096,7 @@ margin-top:-110px; }
 
 .room-img {
   display: block;
-  height: 300px; }
+  height: 400px; }
 
 #colorlib-testimony .owl-carousel {
   z-index: 0; }
@@ -1597,7 +1605,7 @@ margin-top:auto;
           font-weight: normal;
           font-variant: normal;
           text-transform: none;
-          line-height: 1;
+          line-height: auto;
           /* Better Font Rendering =========== */
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
@@ -1937,3 +1945,7 @@ margin-top:auto;
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+  
