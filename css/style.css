@@ -131,22 +131,23 @@ h1, h2, h3, h4, h5, h6, figure {
           
           
           color: #FFDD00; }
+          .dropdown a li{
+            padding-top: -20px;
+          }
       .colorlib-nav ul li.has-dropdown {
         position: relative; }
         .colorlib-nav ul li.has-dropdown .dropdown {
           width: 140px;
-          -webkit-box-shadow: 0px 14px 33px -9px rgb(49, 87, 221, );
-          -moz-box-shadow: 0px 14px 33px -9px rgb(49, 87, 211);
-          box-shadow: 0px 14px 33px -9px rgb(49, 87, 211);
-          z-index: 1002;
+         
           visibility: hidden;
           opacity: 0;
           position: absolute;
-          top: 7px;
+          top: px;
           left: 0;
           text-align: left;
-          background: rgb(49, 87, 211);
+          background: rgb(38, 64, 148);
           padding: 20px;
+          padding-top: -20px;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
           -ms-border-radius: 4px;
