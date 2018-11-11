@@ -132,7 +132,12 @@ h1, h2, h3, h4, h5, h6, figure {
           
           color: #FFDD00; }
           .dropdown a li{
-            padding-top: -20px;
+            padding-top: -40px;
+          }
+          .colorlib-nav ul li.has-dropdown .dropdown hr{
+            margin-top:-18px;
+            color:rgb(38, 64, 148);
+             
           }
       .colorlib-nav ul li.has-dropdown {
         position: relative; }
@@ -147,7 +152,7 @@ h1, h2, h3, h4, h5, h6, figure {
           text-align: left;
           background: rgb(38, 64, 148);
           padding: 20px;
-          padding-top: -20px;
+          padding-top: -30px;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
           -ms-border-radius: 4px;
@@ -169,11 +174,12 @@ h1, h2, h3, h4, h5, h6, figure {
             margin-left: -8px; }
           .colorlib-nav ul li.has-dropdown .dropdown li {
             display: block;
+            margin-top: -33px;
             margin-bottom:auto; }
             .colorlib-nav ul li.has-dropdown .dropdown li:last-child {
               margin-bottom: 0; }
             .colorlib-nav ul li.has-dropdown .dropdown li a {
-              padding: 2px 0;
+              padding: -5px 0;
               display: block;
               color: #999999;
               
